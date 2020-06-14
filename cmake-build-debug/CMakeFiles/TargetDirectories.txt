@@ -1,3 +1,3 @@
-C:/Users/Krisna Dhipa/CLionProjects/TestOnly/cmake-build-debug/CMakeFiles/TestOnly.dir
-C:/Users/Krisna Dhipa/CLionProjects/TestOnly/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Krisna Dhipa/CLionProjects/TestOnly/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Krisna Dhipa/Documents/GitHub/AlgorithmAndProgrammingTask1Team/cmake-build-debug/CMakeFiles/TestOnly.dir
+C:/Users/Krisna Dhipa/Documents/GitHub/AlgorithmAndProgrammingTask1Team/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Krisna Dhipa/Documents/GitHub/AlgorithmAndProgrammingTask1Team/cmake-build-debug/CMakeFiles/rebuild_cache.dir

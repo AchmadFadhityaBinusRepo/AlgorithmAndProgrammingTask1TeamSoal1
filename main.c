@@ -8,26 +8,25 @@ char kalimat2[100];
 void inputKalimat();
 char* gabungKalimat();
 
-char* balikKalimatGabungan(char *gabungan);
-
 int main()
 {
-    char* kalimatGabungan, kalimatGabunganBalik;
+    char* kalimatGabungan;
     int jumlahHurufKalimat1, jumlahHurufKalimat2, jumlahHurufKeduaKalimat, perkalianHurufKeduaKalimat;
 
     inputKalimat();
     kalimatGabungan = gabungKalimat();
-    kalimatGabunganBalik = strrev(kalimatGabungan);
+    printf("\nGabungan 2 buah inputan kalimat = %s", kalimatGabungan);
+    printf("\nHasil membalik kalimat gabungan = %s", strrev(kalimatGabungan));
     jumlahHurufKalimat1 = strlen(kalimat1);
     jumlahHurufKalimat2 = strlen(kalimat2);
     jumlahHurufKeduaKalimat = jumlahHurufKalimat1 + jumlahHurufKalimat2;
     perkalianHurufKeduaKalimat = jumlahHurufKalimat1 * jumlahHurufKalimat2;
-
-    printf("%s", kalimatGabungan);
-    printf("%s", kalimatGabunganBalik);
+    printf("\nJumlah Huruf kalimat pertama = %d", jumlahHurufKalimat1);
+    printf("\nJumlah Huruf kalimat kedua = %d", jumlahHurufKalimat2);
+    printf("\nTotal jumlah huruf = %d", jumlahHurufKeduaKalimat);
+    printf("\nTotal Perkalian kalimat = %d", perkalianHurufKeduaKalimat);
 
     return 0;
-
 }
 
 void inputKalimat() {
